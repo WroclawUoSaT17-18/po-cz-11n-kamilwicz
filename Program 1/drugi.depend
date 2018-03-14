@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1521060797 source:c:\users\wiczkowski\desktop\programy c++ obiektowe\drugi\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<stdio.h>
+
+1521065738 source:c:\users\wiczkowski\desktop\programy c++ obiektowe\drugi - kopia\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<stdio.h>
+
