@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02021a"
+    tools:context=".DodajKredytActivity">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02021a"
+    android:layout_marginLeft="5dp"
+    >
+
+
+//--------------------- NAZWA KREDYTU ---------------------
+
+
+    <TextView
+        android:id="@+id/nazwaKredytu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0A8CC1"
+        android:text="NAZWA KREDYTU"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nazwaKredytu"
+        android:layout_marginTop="5dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#b3b3bc"
+        android:textColorLink="#18b1c8" />
+    <TextView
+        android:id="@+id/linia1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:background="#0a8cc1"
+        android:layout_marginTop="7dp"
+        />
+
+//--------------------- DATA ZAWARCIA KREDYTU ---------------------
+
+
+    <TextView
+            android:id="@+id/dataKredytu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linia1"
+            android:textColor="#FF0A8CC1"
+            android:text="DATA ZAWARCIA KREDYTU DD/MM/RRRR"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            />
+// ************************ DZIEŃ ************************
+    <EditText
+        android:id="@+id/dzienPole"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dataKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#b3b3bc"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/slash1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dzienPole"
+        android:layout_below="@id/dataKredytu"
+        android:text="/"
+        android:textColor="#FF0A8CC1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+// ************************ MIESIĄC ************************
+
+    <EditText
+        android:id="@+id/miesiacPole"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/slash1"
+        android:layout_below="@id/dataKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#b3b3bc"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/slash2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/miesiacPole"
+        android:layout_below="@id/dataKredytu"
+        android:text="/"
+        android:textColor="#FF0A8CC1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+
+// ************************ ROK ************************
+
+    <EditText
+        android:id="@+id/rokPole"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/slash2"
+        android:layout_below="@id/dataKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#b3b3bc"
+        android:textAlignment="center"
+        />
+
+
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <TextView
+                android:id="@+id/linia2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/dzienPole"
+                android:layout_centerHorizontal="true"
+                android:background="#0a8cc1"
+                android:layout_marginTop="7dp"
+                />
+
+//--------------------- KWOTA KREDYTU ---------------------
+
+    <TextView
+        android:id="@+id/kwotaKredytu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia2"
+        android:textColor="#FF0A8CC1"
+        android:text="KWOTA KREDYTU"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/kwotaKredytuPole"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kwotaKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#b3b3bc"
+        />
+    <TextView
+        android:id="@+id/waluta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/kwotaKredytu"
+        android:text="zł"
+        android:textColor="#FF0A8CC1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/linia3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/kwotaKredytuPole"
+        android:layout_centerHorizontal="true"
+        android:background="#0a8cc1"
+        android:layout_marginTop="7dp"
+        />
+
+//--------------------- ILOŚĆ RAT KREDYTOWYCH ---------------------
+
+    <TextView
+        android:id="@+id/iloscKredytu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia3"
+        android:textColor="#FF0A8CC1"
+        android:text="ILOŚĆ RAT KREDYTU"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/iloscKredytuPole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iloscKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#b3b3bc"
+        />
+    <TextView
+        android:id="@+id/linia4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/iloscKredytuPole"
+        android:layout_centerHorizontal="true"
+        android:background="#0a8cc1"
+        android:layout_marginTop="7dp"
+        />
+
+//--------------------- ILOŚĆ WPŁACONYCH RAT KREDYTOWYCH ---------------------
+
+    <TextView
+        android:id="@+id/iloscWplaconychKredytu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia4"
+        android:textColor="#FF0A8CC1"
+        android:text="ILOŚĆ WPŁACONYCH RAT KREDYTU"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/iloscWplaconychKredytuPole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iloscWplaconychKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#b3b3bc"
+        />
+    <TextView
+        android:id="@+id/linia5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/iloscWplaconychKredytuPole"
+        android:layout_centerHorizontal="true"
+        android:background="#0a8cc1"
+        android:layout_marginTop="7dp"
+        />
+
+//--------------------- DZIEŃ SPŁATY KREDYTU ---------------------
+
+
+    <TextView
+        android:id="@+id/dzienKredytu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia5"
+        android:textColor="#FF0A8CC1"
+        android:text="DZIEŃ ZAPŁATY ZA KREDYT (nr dnia miesiąca)"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/dzienKredytuPole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dzienKredytu"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textColor="#b3b3bc"
+        />
+    <TextView
+        android:id="@+id/linia6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/dzienKredytuPole"
+        android:layout_centerHorizontal="true"
+        android:background="#0a8cc1"
+        android:layout_marginTop="7dp"
+        />
+
+//--------------------- PRZYCISK ZAPISU ---------------------
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linia6"
+        android:background="#0a8cc1"
+        android:text="ZAPISZ"
+        android:textColor="#E8EAF6"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
