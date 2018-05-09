@@ -1,0 +1,21 @@
+Panie Kamilu,
+
+naj³atwiejszy sposób ¿eby wymieniaæ dane pomiêdzy Activities w javie;
+
+w bie¿¹cym activity tworzymy new intent
+
+String value="Hello world";
+Intent i = new Intent(CurrentActivity.this, NewActivity.class);    
+i.putExtra("key",value);
+startActivity(i);
+
+
+W kolejnej activity odbieramy dane po "kluczu" key
+
+Bundle extras = getIntent().getExtras();
+if (extras != null) {
+    String value = extras.getString("key");
+}
+
+
+Key musi siê zgadzaæ oczywiœcie. Widzia³em ¿e coœ podobnego Pan próbowa³, proszê spróbowaæ w powy¿szy sposób.
