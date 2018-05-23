@@ -1,0 +1,2 @@
+Poprawiłem design aplikacji, pozostało jedynie zapogramowanie logiki.
+Podsyłam również zdjęcia z aplikacji

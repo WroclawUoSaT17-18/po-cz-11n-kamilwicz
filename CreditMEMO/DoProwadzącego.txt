@@ -1,5 +1,0 @@
-Szanowny Panie Doktorze, 
-borykam się od wielu godzin z pewnym problemem ...
-Chodzi o to, że chciałbym wyświetli wpisany tekst, który znajdzuje się w EditTexcie
-w DodajKredytActivity.java w innym activity np  Main3Activity w TextView o id: textView. 
-Chodzi mi głównie o jeden przykład takiego zastosowania, abym mógł potem na nim bazować.
