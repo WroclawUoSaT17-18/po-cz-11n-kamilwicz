@@ -1,2 +1,10 @@
-Poprawiłem design aplikacji, pozostało jedynie zapogramowanie logiki.
-Podsyłam również zdjęcia z aplikacji
+Szanowny Panie Dotorze, 
+CreditMemo udało mi się stworzyć w taki sposób...(podsyłam filmik oraz pliki Android Studio) 
+Proszę o ocenę i komentarz. Spędziłem nad tą aplikacją sporo czasu. Jest to może niezauważalne, 
+ale język Java i XML zaczynałem od podstaw.
+Nauczyłem się sporo nowych rzeczy, co na pewno zaliczam na plus, ale mam już zbyt 
+mało czasu, aby aplikację CreditMemo bardziej dopracować, co jest związane ze zbliżąjącą się sesją.
+Czy taki postęp Pana Doktora zadowala? Głównym mankamentem aplikacji jest brak możliwości dodawania kolejnej
+pozycji jedynie jej nadpisanie.
+Docelowo planuję to poprawić oraz dodać możliwość dodania zdj umowy kredytu ( coś podobnego, jak zrobiłem w 
+aplikacji która dodaje nowa osobę cz.III ). 

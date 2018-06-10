@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My application 2</string>
+    <string name="checkbox">com.example.wiczkowski.myapplication2.checkbox</string>
+    <string name="name">com.example.wiczkowski.myapplication2.name</string>
+    <string name="password">com.example.wiczkowski.myapplication2.string</string>
+    <string name="dziendata">com.example.wiczkowski.myapplication2.string1</string>
+    <string name="miesiacdata">com.example.wiczkowski.myapplication2.string2</string>
+    <string name="rokdata">com.example.wiczkowski.myapplication2.string3</string>
+    <string name="kwotakredytu">com.example.wiczkowski.myapplication2.string5</string>
+    <string name="iloscratkredytu">com.example.wiczkowski.myapplication2.string4</string>
+    <string name="iloscwplaconychkredytu">com.example.wiczkowski.myapplication2.string5</string>
+    <string name="dzienkredytu">com.example.wiczkowski.myapplication2.string6</string>
+
+
+</resources>
